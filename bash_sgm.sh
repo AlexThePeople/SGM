@@ -1,0 +1,1 @@
+python3 trainer_sgm.py --id '01' --min_words 5 --max_words 15 --nr_frames 2 --nr_probes 8 -i 600 -g 1200 -l 1 --nr_workers 1 --max_nr_files 3000 -e 1 --lr 0.001 --dp 0.1 --optimizer 'Adamax' --data '../data_path/' --log_directory '../TRAINED_MODELS/dummy/MODELS.%iFs.SGMargPhrases_Adamax001.ptLM_argPhrases_Adamax002.large/' --continue_training 'False'
